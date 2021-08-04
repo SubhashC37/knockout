@@ -54,7 +54,7 @@ public class Knockout {
             root.getChildren().addAll(vBox, addMemberText, new AddButton(ADD_MEMBER, addMemberText).getButton(), new CopyButton(COPY).getButton());
 
             Scene scene = new Scene(root, SCENE_BASE_WIDTH, SCENE_BASE_HEIGHT + TABLE_COLUMN_SIZE * tableViewExt.getTableSize());
-            scene.getStylesheets().add(TABLE_CSS_FILE_NAME);
+            scene.getStylesheets().add(getClass().getResource(TABLE_CSS_FILE_NAME).toString());
             stage.setScene(scene);
             stage.setTitle(STOP_WATCH);
             stage.show();

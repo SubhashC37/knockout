@@ -21,9 +21,10 @@ public class Constants {
     public static final String TEAM_MEMBER = "teamMember";
     public static final String ADD_MEMBER = "Add";
     public static final String EQUAL_TO = "=";
-    public static final String CONFIG_FILE_NAME = "src/main/resources/config.properties";
-    public static final String LOG_FILE = "src/main/resources/log.properties";
-    public static final String TABLE_CSS_FILE_NAME = "css/table.css";
+
+    public static final String CONFIG_FILE_NAME = "config.properties";
+    public static final String LOG_FILE = "/log.properties";
+    public static final String TABLE_CSS_FILE_NAME = "/css/table.css";
 
     public static final int SCENE_BASE_WIDTH = 375;
     public static final int SCENE_BASE_HEIGHT = 75;

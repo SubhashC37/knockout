@@ -19,7 +19,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) {
-        PropertyConfigurator.configure(LOG_FILE);
+        PropertyConfigurator.configure(getClass().getResource(LOG_FILE));
         logger.info("Knockout STARTED");
         Knockout knockout = new Knockout(stage);
         knockout.knockout();
